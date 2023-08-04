@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mongoid/mongoid.git
+  remote: https://github.com/mongoid/mongoid.git
   revision: 63ece9973709a837a1817824d202b367db3e3688
   specs:
     mongoid (5.0.0.beta)
@@ -193,7 +193,7 @@ GEM
       nokogiri-happymapper (>= 0.5.4)
       rest-client (>= 1.8.0)
     public_suffix (2.0.5)
-    rack (1.6.8)
+    rack (1.6.13)
     rack-test (0.6.3)
       rack (>= 1.0)
     rack_session_access (0.1.1)
