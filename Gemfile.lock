@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mongoid/mongoid.git
+  remote: https://github.com/mongoid/mongoid.git
   revision: 63ece9973709a837a1817824d202b367db3e3688
   specs:
     mongoid (5.0.0.beta)
@@ -258,7 +258,7 @@ GEM
       rspec-mocks (~> 3.6.0)
       rspec-support (~> 3.6.0)
     rspec-support (3.6.0)
-    rubyzip (1.2.1)
+    rubyzip (1.3.0)
     safe_yaml (1.0.4)
     sass (3.5.1)
       sass-listen (~> 4.0.0)
