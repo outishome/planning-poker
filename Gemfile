@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.5.1'
+gem 'rails', '7.1.0'
 gem 'sqlite3'
 gem 'thin'
 gem 'faye'
@@ -10,16 +10,16 @@ gem 'rails_12factor'
 gem 'newrelic_rpm'
 
 # Assets
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.2'
 gem 'turbolinks'
-gem 'sass-rails', '~> 5.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
+gem 'coffee-rails', '~> 4.2.2'
 gem 'uglifier', '>= 1.0.3'
 gem 'bootstrap-sass'
 gem 'therubyracer', require: 'v8'
 gem 'yui-compressor'
-gem 'font-awesome-rails'
-gem 'responders', '~> 2.0'
+gem 'font-awesome-rails', '>= 4.7.0.8'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 # Custom gems
 gem 'pivotal-tracker'
@@ -27,10 +27,10 @@ gem 'backtop'
 gem 'mongoid', github: 'mongoid'
 gem 'bson_ext'
 
-gem 'rspec-rails', group: [:test, :development]
+gem 'rspec-rails', '>= 3.6.1', group: [:test, :development]
 
 group :test do
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.9.0'
   gem 'forgery'
   gem 'capybara'
   gem 'selenium-webdriver'
@@ -42,7 +42,7 @@ end
 
 group :development do
   gem 'spring'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.3.0'
   gem 'binding_of_caller'
   gem 'capistrano', '~> 3.0', require: false
   gem 'capistrano-rails', '~> 1.1', require: false
